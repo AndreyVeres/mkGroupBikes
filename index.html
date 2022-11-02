@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>bikes</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="tabs__wrapper">
+            <div class="button__box">
+                <button class="tab tab-active">Горный велосипед</button>
+                <button class="tab">Женский велосипед</button>
+                <!-- <button class="tab tab-active">Горный велосипед</button> -->
+            </div>
+         
+  
+            <div class="content__box">
+                <div class="content">
+
+                    <div class="accordeon__controls">
+                        <h5 class="accordeon__title">Горный велосипед</h5>
+                        <!-- <img src="img/accordeon-arrow.svg" alt=""> -->
+                    </div>
+                   
+                    <div class="about__bike">
+
+                        <picture class="bike__img">
+                            <source	media="(max-width: 660px)" srcset="img/bike-1-mobile.png">	
+                            <img src="img/bike-1.png" alt="Велосипед" />			
+                        </picture> 
+                        <!-- <img class="bike__img" src="img/bike-1.png" alt="bike"> -->
+                        <div class="about__bike-main">
+                            <h1 class="title">Велосипед STELS Navigator 510 HD 26 2022</h1>
+                            <p class="about__bike-main__text">Данный велосипед с колесами 26 дюймов хорошо подходит
+                                высоким
+                                подросткам. Прогиб рамы и небольшой размер рамы расчитан на рост от 135 до 165 см.</p>
+                            <p class="about__bike-main__text">Суммарный вес велосипеда был снижен до 16,9 кг, так как
+                                рама
+                                была изготовлена с учетом использования велосипеда подростками.</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="bike__prop">
+                        <h3 class="subtitle">Характеристики</h3>
+                        <ol class="bike__prop-list">
+                            <li class="bike__prop-item ">Двойной обод</li>
+                            <li class="bike__prop-item">Алюминиевый сплав</li>
+                            <li class="bike__prop-item">Колеса диаметром 26 дюймов</li>
+                            <li class="bike__prop-item valid">Покрышки 26х1,95"</li>
+                        </ol>
+                    </div>
+                    <div class="add__prop">
+                        <h3 class="subtitle">Добавить характеристику</h3>
+                        <form class="form">
+                            <input class="form__input" required type="text" placeholder="Алюминиевый сплав">
+                            <button class="form__button">Добавить</button>
+                        </form>
+                    </div>
+
+                    <div class="controls">
+                        <button>Окей</button>
+                        <button class="btn__cancel">Отмена</button>
+                    </div>
+                </div>
+           
+         
+           
+
+                <div class="content">
+                    <div class="accordeon__controls">
+                        <h5 class="accordeon__title">Женский велосипед</h5>
+                        <!-- <img src="img/accordeon-arrow.svg" alt=""> -->
+                    </div>
+                    <div class="about__bike">
+                        <picture class="bike__img">
+                            <source	media="(max-width: 660px)" srcset="img/bike-2-mobile.png">	
+                            <img src="img/bike-2.png" alt="Велосипед" />			
+                        </picture> 
+                        <!-- <img class="bike__img" src="img/bike-2.png" alt="bike"> -->
+                        <div class="about__bike-main">
+                            <h1 class="title">Велосипед SCHWINN Traveler women 2022</h1>
+                            <p class="about__bike-main__text">Женский велосипед со стальной рамой Classic step-true
+                                lightweight позволяет девушкам без проблем его перемещать.</p>
+                            <p class="about__bike-main__text">На данном велосипеде имеется 7 скоростей с переключателями
+                                от
+                                Shimano, а жесткая вилка обеспечивает отличную управляемость. Подходит для катания по
+                                асфальтированным поверхностям.</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="bike__prop">
+                        <h3 class="subtitle">Характеристики</h3>
+                        <ul class="bike__prop-list">
+                            <li class="bike__prop-item">Стальная рама</li>
+                            <li class="bike__prop-item">Жесткая вилка</li>
+                            <li class="bike__prop-item valid">Колеса диаметром 24 дюймов</li>
+                            <li class="bike__prop-item valid">7 скоростей</li>
+                        </ul>
+                    </div>
+                    <div class="add__prop">
+                        <h3 class="subtitle">Добавить характеристику</h3>
+                        <form class="form">
+                            <input class="form__input" required type="text" placeholder="Алюминиевый сплав">
+                            <button class="form__button">Добавить</button>
+                        </form>
+                    </div>
+
+                    <div class="controls">
+                        <button>Окей</button>
+                        <button class="btn__cancel">Отмена</button>
+                    </div>
+                </div>
+      
+             
+           
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
