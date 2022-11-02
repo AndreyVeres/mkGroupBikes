@@ -419,7 +419,7 @@ ul.bike__prop-list > li {
 }
 
 ul.bike__prop-list > li::before {
-  content: url(../img/bike-icon.svg);
+  content: url(img/bike-icon.svg);
   position: absolute;
   left: -30px;
 }
@@ -458,7 +458,7 @@ ul.bike__prop-list {
 }
 
 .valid::after {
-  content: url(../img/accept.svg);
+  content: url(img/accept.svg);
   position: absolute;
   left: -60px;
   top: 1px;
@@ -478,7 +478,7 @@ ul.bike__prop-list {
 }
 
 .accordeon__title.tab-active::before {
-  content: url(../img/accordeon-arrow.svg);
+  content: url(img/accordeon-arrow.svg);
   position: absolute;
   right: -30px;
   transform: rotate(180deg);
